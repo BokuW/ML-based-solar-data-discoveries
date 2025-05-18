@@ -34,18 +34,16 @@ Repository Setup
     Create python package.yml
 
 7. Folder Structure
-    Project Folder Structure was initialized as follows
-    ML-based-solar-data-discoveries/
-    │
-    ├── .github/workflows/python-package.yml     # CI/CD or GitHub Actions workflows 
-    ├── .venv/                   # Virtual environment (excluded in .gitignore)
-    ├── data/                    # Raw datasets 
-    ├── notebooks/               # Jupyter notebooks for EDA, cleaning ...
-    ├── scripts/                 # Reusable Python scripts 
-    ├── src/                     # Source code for processing 
-    ├── tests/                   # Unit tests 
-    ├── requirements.txt         # Environment dependencies
-    ├── .gitignore               # Ignore virtual env, cache files, etc.
-    ├── LICENSE
+Project Folder Structure was initialized as follows
+ML-baed-solar-data-discoveries/
+├── .github/workflows/python-package.yml     # CI/CD or GitHub Actions workflows 
+├── .venv/                   # Virtual environment (excluded in .gitignore)
+ ├── data/                    # Raw datasets 
+ ├── notebooks/               # Jupyter notebooks for EDA, cleaning ...
+ ├── scripts/                 # Reusable Python scripts 
+├── src/                     # Source code for processing 
+ ├── tests/                   # Unit tests
+ ├── requirements.txt         # Environment dependencies
+├── .gitignore               # Ignore virtual env, cache files, etc.  ├── LICENSE
     └── README.md
-8. Final Merge setup-task into main via a Pull Request.
+9. Final Merge setup-task into main via a Pull Request.
